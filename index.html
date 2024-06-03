@@ -1,0 +1,51 @@
+
+<html>  
+    <head>
+        <script type="text/javascript" src="info.js"></script>
+
+        <style>
+        body{
+            background-color: #fceefd;
+        }
+        div.solid {border-style: solid; height: 100%; margin:auto; aspect-ratio: 0.5625; border-radius: 25px;}
+        div.inner {border-style: solid; height: 50%; width: 90% ;margin: auto; aspect-ratio: 0.6; border-radius: 25px;}
+        img.person {border-radius: 20px; height: 100%; width:100%; margin: auto; object-fit: fill;}
+        button.choice{border-radius: 50%;  width: 49%; margin: auto; background-color: lightgreen; display:inline-block; text-align: center;}
+        button.choice2{border-radius: 50%;  width: 49%; margin: auto; background-color: red; display:inline-block; text-align: center;}
+        img.yes{height: 100%; width: 100%; object-fit: scale-down;}
+        img.no{height: 100%; width: 100%; object-fit: scale-down;}
+        </style>
+        <script>
+            const person = "https://randomuser.me/api/";
+        </script>
+    </head>
+
+
+    <body>
+        
+        
+
+
+        <div class="solid">
+           
+            <img src="image.png" width="180" height="100" alt="Tinder logo" >
+            <center><div class="inner">
+                <img class="person" id="face" src="golden-question-mark-symbols-mr7MrM5-600-removebg-preview.png" alt= "future ai tinder peeps"></img>
+            </div></center>
+            <div>
+                <div id="name">?</div> 
+                <div id="loco">?</div> 
+                <div id="coord">?</div>
+                <button class="choice2"  onclick="swipe()">
+                    <img class="yes" alt="cross" src="download-removebg-preview.png">
+                </button> 
+                <button class="choice"  onclick="swipe()">
+                    <img class="no" alt="check" src="images-removebg-preview.png" >
+                </button>
+               
+            </div>
+        </div>
+
+    </body>
+</html>
+
